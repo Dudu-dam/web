@@ -1,0 +1,42 @@
+*{
+    list-style-type: none;
+}
+header{
+    position: relative;
+    width: 800px;
+    height: 100px;
+    background-color: #A2A3C4;
+    margin: 10px auto;
+  }
+nav{
+    position: relative;
+    width: 800px;
+    height: 100px;
+    margin: auto;
+    /* background-color: #A2A3C4; */
+  }
+  nav ul li{  
+    background-color: #D3B976 ;
+    margin: 2px 0px;/* arria-abajo / derecha-izquierda*/
+    padding: 5px; /* margen del ul en el  botón*/
+    float: left; /* horizontal*/
+    width: 232px;
+    height: 40px;
+   /* border: 2px solid #8F80B4;*/
+    text-align: center;
+    line-height: 40px; /*alinia texto en el horizontal*/
+  }
+  
+  nav ul li a{
+    color: black;/*define el color de letra del a*/
+    text-decoration: none;/* quita subrayado */
+    display: block; /* para espandir el enlace y que ocupe todo el bloque */
+    padding: 2px;
+  
+  }
+  nav ul li:hover{ /*  aplicas este estilo al pasar por encima */
+    background: #8F80B4;
+   /* border: 2px solid #99FF00;*/
+  
+  }
+  
