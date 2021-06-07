@@ -8,6 +8,8 @@ header{
     height: 100px;
     background-color: #A2A3C4;
     margin: 10px auto;
+    text-align: center;
+    line-height: 80px;
   }
 nav{
     position: relative;
@@ -21,7 +23,7 @@ nav{
     margin: 2px 0px;/* arria-abajo / derecha-izquierda*/
     padding: 5px; /* margen del ul en el  botón*/
     float: left; /* horizontal*/
-    width: 232px;
+    width: 220px;
     height: 40px;
    /* border: 2px solid #8F80B4;*/
     text-align: center;
