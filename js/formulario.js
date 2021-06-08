@@ -6,6 +6,8 @@ function comprobarForm(){
         if(!vacio(correo)){
             if(correoValido(correo)){ 
                 alert("Su mensaje se ha enviado correctamente.")
+            }else{
+                alert("El correo no es válido.");
             }
         }else{
             alert("Indica cual es tu correo.");
@@ -28,7 +30,7 @@ function correoValido(entrada){
     
     if(partesarroba.length==2){
         if(partespunto.length==2){
-            if(partespunto[2]== "es" || partespunto[2]=="com"){
+            if(partespunto[1]== "es" || partespunto[1]=="com"){
                 return true;
             }else{
                 return false;
