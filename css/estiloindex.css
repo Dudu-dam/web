@@ -1,5 +1,6 @@
 *{
     list-style-type: none;
+    font-family: 'Cabin', sans-serif;
 }
 header{
     position: relative;
@@ -13,16 +14,15 @@ nav{
     width: 800px;
     height: 80px;
     margin: auto;
-    /* background-color: #A2A3C4; */
+    
   }
   nav ul li{  
     background-color: #D3B976 ;
     margin: 2px 0px;/* arria-abajo / derecha-izquierda*/
     padding: 5px; /* margen del ul en el  botón*/
     float: left; /* horizontal*/
-    width: 232px;
+    width: 220px;
     height: 40px;
-   /* border: 2px solid #8F80B4;*/
     text-align: center;
     line-height: 40px; /*alinia texto en el horizontal*/
   }
@@ -35,10 +35,9 @@ nav{
   
   }
   nav ul li:hover{ /*  aplicas este estilo al pasar por encima */
-    background: #A2A3C4;
-   /* border: 2px solid #99FF00;*/
-  
+    background: #A2A3C4;  
   }
+
   img{
     float: right;
     width: 50px;
