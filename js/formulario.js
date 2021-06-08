@@ -1,4 +1,4 @@
-function comprobarform(){
+function comprobarForm(){
     var nomb=document.getElementById("nombre");
     var correo=document.getElementById("correo");
     var msn=document.getElementById("mensaje");
