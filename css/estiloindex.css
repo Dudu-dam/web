@@ -2,6 +2,9 @@
     list-style-type: none;
     font-family: 'Cabin', sans-serif;
 }
+html{
+  background-color: blanchedalmond;
+}
 header{
     position: relative;
     width: 800px;
@@ -51,6 +54,14 @@ nav{
     width: 800px;
     margin: auto;
     background-color: #A2A3C4;
+    text-align: center;
+    line-height: 50px;
+  }
+  article{
+    width: 700px;
+    background-color:  #a9aad8 ;
+    margin: auto;
+    height: 250px;
   }
 
   footer{
