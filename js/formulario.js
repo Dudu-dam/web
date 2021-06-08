@@ -23,9 +23,22 @@ function vacio(entrada){
     return true;
 }
 function correoValido(entrada){
-    var partes
-    partes=entrada.value.split("@");
-    if(partes.length==2){
-        
+    var partespunto;
+    var partesarroba;
+    partesarroba=entrada.value.split("@");
+    partespunto=entrada.value.split(".");
+    
+    if(partesarroba.length==2){
+        if(partespunto.length==2){
+            if(partespunto[2]== "es" || partespunto[2]=="com"){
+                return true;
+            }else{
+                return false;
+            }
+        }else{
+            return false;
+        }
+    }else{
+        return false;
     }
 }
