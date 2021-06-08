@@ -30,7 +30,7 @@ function correoValido(entrada){
     
     if(partesarroba.length==2){
         if(partespunto.length==2){
-            if(partespunto[2]== "es" || partespunto[2]=="com"){
+            if(partespunto[1]== "es" || partespunto[1]=="com"){
                 return true;
             }else{
                 return false;
