@@ -8,6 +8,8 @@ header{
     height: 100px;
     background-color: #A2A3C4;
     margin: 10px auto;
+    text-align: center;
+    line-height: 80px;
   }
 nav{
     position: relative;
