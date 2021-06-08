@@ -6,6 +6,8 @@ function comprobarForm(){
         if(!vacio(correo)){
             if(correoValido(correo)){ 
                 alert("Su mensaje se ha enviado correctamente.")
+            }else{
+                alert("El correo no es válido.");
             }
         }else{
             alert("Indica cual es tu correo.");
