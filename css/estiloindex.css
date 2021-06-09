@@ -81,7 +81,12 @@ header{
     margin: auto;
     height: 250px;
   }
-
+  img.tienda{
+    width: 50%;
+    height: 50%;
+    margin:auto;
+    float: none;
+  }
   footer{
     width: 800px;
     margin: auto;
