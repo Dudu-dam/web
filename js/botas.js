@@ -14,3 +14,6 @@ function anadirCarrito(){
    console.log(color+talla);
 
 }
+function verCarrito(){
+   
+}
