@@ -106,3 +106,12 @@ nav ul li{
     color: #A2A3C4;
   }
   
+#precio{
+  font-weight: bolder;
+ /* margin-top: -38px;*/
+  margin: -40px 0px -2px 0px;
+}
+
+button{
+  margin-top: -10px;
+}
