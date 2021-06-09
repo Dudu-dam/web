@@ -8,7 +8,7 @@ function comprobarForm(){
                 if(vacio(msn)){
                     alert("Escriba un mensaje.");
                 }else{
-                     alert("Su mensaje se ha enviado correctamente.");
+                     alert( nomb.value+".\nSu mensaje se ha enviado correctamente.");
                 }               
             }else{
                 alert("El correo no es válido.");
