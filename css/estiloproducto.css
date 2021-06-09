@@ -2,43 +2,47 @@
     list-style-type: none;
     font-family: 'Cabin', sans-serif;
 }
+
 html{
   background-color: blanchedalmond;
 }
+
 header{
-    position: relative;
-    width: 800px;
-    height: 100px;
-    background-color: #A2A3C4;
-    margin: 10px auto;
-    text-align: center;
-    line-height: 80px;
-  }
+  position: relative;
+  width: 800px;
+  height: 100px;
+  background-color: #A2A3C4;
+  margin: 10px auto;
+  text-align: center;
+  line-height: 80px;
+}
+
 nav{
-    position: relative;
-    width: 800px;
-    height: 80px;
-    margin: auto;
-    
+  position: relative;
+  width: 800px;
+  height: 80px;
+  margin: auto;
+}
+
+nav ul li{  
+  background-color: #D3B976 ;
+  margin: 2px 0px;/* arria-abajo / derecha-izquierda*/
+  padding: 5px; /* margen del ul en el  botón*/
+  float: left; /* horizontal*/
+  width: 220px;
+  height: 45px;
+  text-align: center;
+  line-height: 40px; /*alinia texto en el horizontal*/
   }
-  nav ul li{  
-    background-color: #D3B976 ;
-    margin: 2px 0px;/* arria-abajo / derecha-izquierda*/
-    padding: 5px; /* margen del ul en el  botón*/
-    float: left; /* horizontal*/
-    width: 220px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px; /*alinia texto en el horizontal*/
-  }
+
   nav ul li ul li{
     margin-left: -45px;   
   }
 
-
   nav ul li ul li{
     display: none;
   }
+
   nav ul li:hover ul li{
     display: block;
 
@@ -51,6 +55,7 @@ nav{
     padding: 2px;
   
   }
+
   nav ul li:hover{ /*  aplicas este estilo al pasar por encima */
     background: #A2A3C4;  
   }
@@ -69,6 +74,7 @@ nav{
     text-align: center;
     line-height: 50px;
   }
+
   section img{
     margin-top: 25px;
     margin-right: -215px;
@@ -78,11 +84,10 @@ nav{
     height: 250px;
   }
 
-  button{
+  button.color{
     position: relative;
     float: left;
     margin-top: 295px;
-
     
   }
   article{
