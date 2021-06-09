@@ -8,8 +8,8 @@ function  cambiarBlanco(){
   }
 
   function anadirCarrito(){
-    var color=document.getElementsByTagName("color").value;
-    var talla=document.getElementByTagName("talla").value;
+    var color=document.getElementById("color").value;
+    var talla=document.getElementById("talla").value;
  
     console.log=color+talla;
  

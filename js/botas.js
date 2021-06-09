@@ -7,8 +7,8 @@ function cambiarNegro(){
 }
 
 function anadirCarrito(){
-   var color=document.getElementsByTagName("color").value;
-   var talla=document.getElementsByTagName("talla").value;
+   var color=document.getElementById("color").value;
+   var talla=document.getElementById("talla").value;
 
    console.log=color+talla;
 
