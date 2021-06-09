@@ -3,5 +3,5 @@ function cambiarMostaza(){
 }
 
 function cambiarNegro(){
-
+   document.getElementById("imagen").src= "../img/botasCTnegras.jpg";
 }
