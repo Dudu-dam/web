@@ -41,6 +41,7 @@ nav{
   }
   nav ul li:hover ul li{
     display: block;
+
   }
 
   nav ul li a{
@@ -69,7 +70,6 @@ nav{
     line-height: 50px;
   }
   section img{
-    position: relative;
     margin-top: 25px;
     margin-right: -215px;
     margin-left: 50px;
@@ -86,7 +86,6 @@ nav{
     
   }
   article{
-    position: relative;
     float: right;
     width: 440px;
     background-color:  #D3B976  ;/*#a9aad8*/
