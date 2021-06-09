@@ -69,19 +69,30 @@ nav{
     line-height: 50px;
   }
   section img{
-    margin: 20px;
-    float: none;
-    width: 270px;
-    height: 270px;
+    position: relative;
+    margin-top: 25px;
+    margin-right: -215px;
+    margin-left: 50px;
+    float: left;
+    width: 250px;
+    height: 250px;
+  }
+
+  button{
+    position: relative;
+    float: left;
+    margin-top: 295px;
+
+    
   }
   article{
     position: relative;
     float: right;
-    width: 300px;
+    width: 440px;
     background-color:  #D3B976  ;/*#a9aad8*/
     margin: auto;
-    height: 300px;
-    margin: 20px;
+    height: 290px;
+    margin: 25px;
   }
 
   footer{
