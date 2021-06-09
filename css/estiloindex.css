@@ -31,7 +31,18 @@ nav{
     text-align: center;
     line-height: 40px; /*alinia texto en el horizontal*/
   }
-  
+  nav ul li ul li{
+    margin-left: -45px;   
+  }
+
+
+  nav ul li ul li{
+    display: none;
+  }
+  nav ul li:hover ul li{
+    display: block;
+  }
+
   nav ul li a{
     color: black;/*define el color de letra del a*/
     text-decoration: none;/* quita subrayado */
