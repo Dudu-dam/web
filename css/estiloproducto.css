@@ -1,6 +1,5 @@
 *{
     list-style-type: none;
-    font-family: 'Cabin', sans-serif;
     border-radius: 5px;
 }
 
@@ -16,6 +15,7 @@ header{
   margin: 10px auto;
   text-align: center;
   line-height: 80px;
+  font-family: 'Limelight', cursive;
 }
 
 nav{
