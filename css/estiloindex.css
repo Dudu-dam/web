@@ -2,12 +2,17 @@
     list-style-type: none;
     font-family: 'Cabin', sans-serif;
 }
+html{
+  background-color: blanchedalmond;
+}
 header{
     position: relative;
     width: 800px;
     height: 100px;
     background-color: #A2A3C4;
     margin: 10px auto;
+    text-align: center;
+    line-height: 80px;
   }
 nav{
     position: relative;
@@ -49,6 +54,14 @@ nav{
     width: 800px;
     margin: auto;
     background-color: #A2A3C4;
+    text-align: center;
+    line-height: 50px;
+  }
+  article{
+    width: 700px;
+    background-color:  #a9aad8 ;
+    margin: auto;
+    height: 250px;
   }
 
   footer{
