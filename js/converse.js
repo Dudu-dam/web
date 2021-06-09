@@ -13,5 +13,14 @@ function  cambiarBlanco(){
     var precio=document.getElementById("precio").innerHTML;
     alert("Se ha añadido a tu cesta:\nDeportivas-Converse\n"+"Color: "+color+" - Talla: "+talla+"\nPrecio: "+precio);
     console.log(color+talla);
- 
+    contador(color+" "+talla+" "+precio);
+ }
+function contador(entrada){
+    var text="";
+    text=text+entrada+"\n";
+    return text;
+}
+
+function verCarrito(){
+    alert();
  }
