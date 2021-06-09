@@ -10,7 +10,8 @@ function  cambiarBlanco(){
   function anadirCarrito(){
     var color=document.getElementById("color").value;
     var talla=document.getElementById("talla").value;
- 
-    console.log=color+talla;
+    var precio=document.getElementById("precio").innerHTML;
+    alert("Se ha añadido Deportivas-Converse\n"+"Color: "+color+" - Talla: "+talla+"\nPrecio: "+precio);
+    console.log(color+talla);
  
  }
