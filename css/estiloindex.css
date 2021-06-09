@@ -36,7 +36,7 @@ header{
   }
 
   nav ul li ul li{
-    margin-left: -45px;   
+    margin: 0px 0px 0px -45px;
   }
 
   nav ul li ul li{
