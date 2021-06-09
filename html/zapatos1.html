@@ -25,17 +25,17 @@
 	</nav>
 	<section>
 		<img id="imagen" src="../img/converse.jpg" alt="imagenes de zapatos"/>
-		<button onclick="cambiarBlanco()">Color blanco</button>
-		<button onclick="cambiarNegro()">Color negro</button>
+		<button class="color" onclick="cambiarBlanco()">Color blanco</button>
+		<button class="color" onclick="cambiarNegro()">Color negro</button>
 		<article>
 			<h1> Deportivas - Converse</h1>
 			<p></p>
 			<form>
-				Color: <select id="color">
+				Color: <select id="color" name="color">
 					<option value="blanco">Blanco</option>
 					<option value="negro">Negro</option>
 				</select>
-				Talla:<select id="talla">
+				Talla:<select id="talla" name="talla">
 					<option value="28">28</option>
 					<option value="29">29</option>
 					<option value="30">30</option>
@@ -51,7 +51,8 @@
 					<option value="40">40</option>
 				</select>
 			</form>
-			<p>Precio:</p>
+			<p>Precio:</p><br>
+			<button onclick="anadirCarrito()">Comprar</button>
 		</article>
 	</section>
 	<footer>

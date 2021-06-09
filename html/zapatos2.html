@@ -25,17 +25,17 @@
 	</nav>
 	<section>
 		<img id="imagen" src="../img/botasCT.jpg" alt="imagen zapatos"/>
-		<button onclick="cambiarMostaza()">Color mostaza</button>
-		<button onclick="cambiarNegro()">Color negro</button>
+		<button class="color" onclick="cambiarMostaza()">Color mostaza</button>
+		<button class="color" onclick="cambiarNegro()">Color negro</button>
 		<article>
 			<h1>Botas- Coronel Tapioca</h1>
 			<form>
 				Color:
-				<select id="color">
+				<select id="color" name="color">
 					<option value="mostaza">Mostaza</option>
 					<option value="negro">Negro</option>
 				</select>
-				Talla:<select id="talla">
+				Talla:<select id="talla" name="talla">
 					<option value="28">28</option>
 					<option value="29">29</option>
 					<option value="30">30</option>
@@ -51,7 +51,8 @@
 					<option value="40">40</option>
 				</select>
 			</form>
-			<p>Precio:</p>
+			<p>Precio:</p><br>
+			<button onclick="anadirCarrito()">Comprar</button>
 		</article>
 	</section>
 	<footer>
