@@ -4,8 +4,12 @@ function comprobarForm(){
     var msn=document.getElementById("mensaje");
     if(!vacio(nomb)){
         if(!vacio(correo)){
-            if(correoValido(correo)){ 
-                alert("Su mensaje se ha enviado correctamente.")
+            if(correoValido(correo)){
+                if(vacio(msn)){
+                    alert("Escriba un mensaje.");
+                }else{
+                     alert("Su mensaje se ha enviado correctamente.");
+                }               
             }else{
                 alert("El correo no es válido.");
             }
