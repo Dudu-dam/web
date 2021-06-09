@@ -2,9 +2,11 @@
     list-style-type: none;
     font-family: 'Cabin', sans-serif;
 }
+
 html{
   background-color: blanchedalmond;
 }
+
 header{
     position: relative;
     width: 800px;
@@ -14,31 +16,33 @@ header{
     text-align: center;
     line-height: 80px;
   }
-nav{
+
+  nav{
     position: relative;
     width: 800px;
     height: 80px;
     margin: auto;
-    
   }
+
   nav ul li{  
     background-color: #D3B976 ;
     margin: 2px 0px;/* arria-abajo / derecha-izquierda*/
     padding: 5px; /* margen del ul en el  botón*/
     float: left; /* horizontal*/
     width: 220px;
-    height: 40px;
+    height: 45px;
     text-align: center;
     line-height: 40px; /*alinia texto en el horizontal*/
   }
+
   nav ul li ul li{
     margin-left: -45px;   
   }
 
-
   nav ul li ul li{
     display: none;
   }
+
   nav ul li:hover ul li{
     display: block;
   }
@@ -50,6 +54,7 @@ nav{
     padding: 2px;
   
   }
+
   nav ul li:hover{ /*  aplicas este estilo al pasar por encima */
     background: #A2A3C4;  
   }
@@ -68,6 +73,7 @@ nav{
     text-align: center;
     line-height: 50px;
   }
+  
   article{
     width: 700px;
     background-color:  #a9aad8 ;
