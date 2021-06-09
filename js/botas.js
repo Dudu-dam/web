@@ -10,7 +10,7 @@ function anadirCarrito(){
    var color=document.getElementById("color").value;
    var talla=document.getElementById("talla").value;
    var precio=document.getElementById("precio").innerHTML;
-   alert("Se ha añadido Botas-Coronel Tapioca\n"+"Color: "+color+" - Talla: "+talla+"\nPrecio: "+precio);
+   alert("Se ha añadido a tu cesta:\nBotas-Coronel Tapioca\n"+"Color: "+color+" - Talla: "+talla+"\nPrecio: "+precio);
    console.log(color+talla);
 
 }
