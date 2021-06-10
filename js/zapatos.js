@@ -1,5 +1,6 @@
 var text="";
 var total=0;
+var productos;
 
 function  cambiarBlanco(){
     document.getElementById("imagen").src='../img/converseblanca.jpg';
