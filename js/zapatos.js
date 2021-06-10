@@ -1,3 +1,5 @@
+var text="";
+var total=0;
 
 function  cambiarBlanco(){
     document.getElementById("imagen").src='../img/converseblanca.jpg';
@@ -11,16 +13,22 @@ function  cambiarBlanco(){
     var color=document.getElementById("color").value;
     var talla=document.getElementById("talla").value;
     var precio=document.getElementById("precio").innerHTML;
-    alert("Se ha añadido a tu cesta:\nDeportivas-Converse\n"+"Color: "+color+" - Talla: "+talla+"\nPrecio: "+precio);
+    var tipo=document.getElementById("tipo").innerHTML;
+    alert("Se ha añadido a tu cesta:\n"+tipo+"\nColor: "+color+" - Talla: "+talla+"\nPrecio: "+precio);
     console.log(color+talla);
-    contador(color+" "+talla+" "+precio);
+    contador(tipo+" "+color+" "+talla+" "+precio);
+    contarTotal(precio)
+
  }
 function contador(entrada){
-    var text="";
     text=text+entrada+"\n";
     return text;
 }
+function contarTotal(entrada){
+  var precio=entrada.split(" ");
+  total+=parseFloat(total)+parseFloat(precio[0]);
+}
 
 function verCarrito(){
-    alert();
+    alert("Tu carrito tiene:\n"+text+"\nTOTAL: "+total+" €");
  }
