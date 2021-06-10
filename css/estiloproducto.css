@@ -61,6 +61,18 @@ nav ul li{
     background: #A2A3C4;  
   }
 
+  #cantidad{
+   border-radius: 14px;
+ /*  background-color: red;*/
+   font-size: 14px;
+   font-weight: bold;
+   color: white;
+   width: 15px;
+   float: left;
+   text-align: center;
+  
+  }
+
   img{
     float: right;
     width: 50px;
